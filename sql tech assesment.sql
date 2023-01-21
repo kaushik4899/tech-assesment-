@@ -1,0 +1,5 @@
+USE EDYODA;
+CREATE TABLE IF NOT EXISTS country_new
+AS SELECT * FROM countries;
+SHOW COLUMNS FROM country_new;
+
